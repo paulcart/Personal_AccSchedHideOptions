@@ -35,7 +35,7 @@ pageextension 50370 "AccSched_HideOpt" extends "Acc. Schedule Overview"
 
     trigger OnOpenPage()
     begin
-        ShowOptions := true;
+        ShowOptions := false;
     end;
 
     var
